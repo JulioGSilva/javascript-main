@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ex 06</title>
+</head>
+<body>
+    <header>
+        <h1>Calcular</h1>
+    </header>
+    <main>
+        <section id="text">
+            <p>Na caixa central você pode selecionar a operação desejada.</p>
+            <br>
+        </section>
+        <section>
+            <form action="" method="get">
+                <label for="num1">1° Número:</label>
+                <input type="number" name="num1" id="num1">
+
+                <select name="select" id="select">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+
+                <label for="num2">2° Número:</label>
+                <input type="number" name="num2" id="num2">
+                <br>
+
+                <input type="button" id="button" value="Calcular" onclick="calcular()">
+            </form>
+            <div id="resp">
+
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

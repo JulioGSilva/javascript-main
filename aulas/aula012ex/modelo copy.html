@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo do exercicio</title>
+    <link rel="stylesheet" href="estilos/style2.css">
+</head>
+<body>
+    <header>
+        <h1>Verificar Idade</h1>
+    </header>
+    <main>
+        <section>
+            <div>
+                <label for="ano">Ano de nacimento: </label>
+                <input type="number" name="ano" id="ano" class="sty">
+                <br>
+                <label for="sexo">Sexo: </label>
+                <input type="radio" name="radsex" id="mas" class="sty"> Masculino 
+                <input type="radio" name="radsex" id="fem" class="sty"> Feminino
+                <br>
+                <input type="button" value="Verificar" class="sty" onclick="verificar()">
+                
+            </div>
+            <div id="res">
+                <p>Preencha os dados a cima para ver o resultado!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@JulioTheOne</p>
+    </footer>
+
+    <script src="script2.js"></script>
+</body>
+</html>

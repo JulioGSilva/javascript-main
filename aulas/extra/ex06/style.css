@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(144, 144, 201);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+    padding: 30px;
+    color: white;
+}
+section#text {
+    text-align: left;
+}
+
+main {
+    background-color: white;
+    color: black;
+    width: 580px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+section > form > #button {
+    padding: 3px;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(85, 85, 116);
+    color: white;
+    border: 0px black;
+}
