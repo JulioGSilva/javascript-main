@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de Layout com Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="estilo/style.css">
+
+  <style>
+    .a200 {
+      height: 400px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="sticky-top">
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 text-center">
+            <h1 class="text-light m-0 p-0">Latveria Nerd</h1>
+          </div>
+          <div class="col-1 text-light">
+          </div>
+          <div class="col-1 m-auto text-light text-bo">
+            <h5>Games</h5>
+          </div>
+          <div class="col-1 m-auto text-light text-bo">
+            <h5>Animes</h5>
+          </div>
+          <div class="col-1 m-auto text-light text-bo">
+            <h5>Filmes</h5>
+          </div>
+          <div class="col-1 m-auto text-light text-bo">
+            <h5>Reviews</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid shadow">
+      <div class="container">
+        <div class="row p-2 ">
+          <div class="col-4 d-inline-block">
+            <div class="col-12 d-inline-block my-1 position-relative">
+              <img class="img-fluid"
+                src="https://cinebuzz.uol.com.br/media/uploads/superman_legacy_tera_atores_de_guardioes_da_galaxia_confirma_james_gunn.jpg"
+                alt="">
+              <div class="position-absolute bottom-0 titulo">
+                <h3>Ator dos guardiões estará em superman legacy</h3>
+              </div>
+            </div>
+
+            <div class="col-12 d-inline-block my-1 position-relative">
+              <img class="img-fluid" src="https://recreio.uol.com.br/media/uploads/marvel/mephisto_capa.jpg" alt="">
+              <div class="position-absolute bottom-0 titulo">
+                <h3 class="">Conheça Mephisto, o Cramunhão da marvel</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-8">
+            <div id="container" class="col-12 position-relative">
+              <img class="img-fluid" id="imag" src="https://i.ytimg.com/vi/GGReiLn3fjA/maxresdefault.jpg" alt="">
+              <div id="txt" class="position-absolute bottom-0 start-0 titulo">
+                <h3>Analise do primeiro Trailer</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 shadow bg-dark my-5">
+          <div class="row">
+            <div class="col-8">
+              <h2 class="m-0 mx-4 align-top text-light">Trailers:</h2>
+            </div>
+            <div class="col-2">
+              <h4>Games</h4>
+            </div>
+            <div class="col-2">
+              <h4>Filmes</h4>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-6 my-5 ">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-Cp2N8XUWfM"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div>
+              <div class="col-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/x3wG4YpqRh4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="containder-fluid my-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-11">
+            <h1 class="mx-4">GameNews:</h1>
+          </div>
+          <div class="col-12 bg-dark" style="height: 2px;"></div>
+        </div>
+      </div>
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-8 m-0 bg-light d-inline-block shadow">
+            <div class="row">
+              <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                <div class="col-12 my-1 p-0">
+                  <img class="d-inline-block align-top"
+                    src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/09/Demolidor-Charlie-Cox-750x422.jpg"
+                    alt="" style="width: 300px;margin-right: 15px;">
+                  <div class="col-6 d-inline-block">
+                    <h3>Demolidor: produção pausada</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur dicta culpa ex magnam saepe
+                      nulla.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                <div class="col-12 p-0 my-1">
+                  <img class="align-top d-inline-block"
+                    src="https://staticg.sportskeeda.com/editor/2022/12/43a7b-16699788746379-1920.jpg"
+                    style="width: 300px; margin-right: 15px;" alt="">
+                  <div class="col-6 d-inline-block">
+                    <h3>Origem: High Evolutionary</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit a reprehenderit incidunt
+                      rem vero.</p>
+                  </div>
+                </div>
+              </a>
+              <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                <div class="col-12 my-1 p-0">
+                  <img class="align-top"
+                    src="https://pocosentreaspas.com/wp-content/uploads/2023/05/the-meg-2-the-trench-1000x600.webp"
+                    alt="" style="width: 300px;margin-right: 15px;">
+                  <div class="col-6 d-inline-block">
+                    <h3>Megatubarão 2: veja o trailer</h3>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum blanditiis quis? Repellat,
+                      ipsum.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          </div>
+          <div class="col-3 bg-light d-inline-block p-0 shadow" style="margin-left: 50px;">
+            <div class="col-12 bg-danger" style="height: 150px;">
+
+            </div>
+            <div class="col-12 bg-danger mt-1" style="height: 150px;">
+
+            </div>
+            <div class="col-12 bg-danger mt-1" style="height: 150px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="containder-fluid my-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-11">
+            <h1 class="mx-4">Filmes:</h1>
+          </div>
+          <div class="col-12 bg-dark" style="height: 2px;"></div>
+        </div>
+      </div>
+      <div class="container p-3">
+        <div class="row">
+          <div class="col-8 m-0 bg-light d-inline-block shadow">
+            <section id="games">
+              <div class="row">
+                <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                  <div class="col-12 my-1 p-0">
+                    <img class="d-inline-block align-top"
+                      src="https://disneyplusbrasil.com.br/wp-content/uploads/2022/09/Demolidor-Charlie-Cox-750x422.jpg"
+                      alt="" style="width: 300px;margin-right: 15px;">
+                    <div class="col-6 d-inline-block">
+                      <h3>Demolidor: produção pausada</h3>
+                      <hr>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea pariatur dicta culpa ex magnam saepe
+                        nulla.</p>
+                    </div>
+                  </div>
+                </a>
+                <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                  <div class="col-12 p-0 my-1">
+                    <img class="align-top d-inline-block"
+                      src="https://staticg.sportskeeda.com/editor/2022/12/43a7b-16699788746379-1920.jpg"
+                      style="width: 300px; margin-right: 15px;" alt="">
+                    <div class="col-6 d-inline-block">
+                      <h3>Origem: High Evolutionary</h3>
+                      <hr>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit a reprehenderit incidunt
+                        rem vero.</p>
+                    </div>
+                  </div>
+                </a>
+                <a class="text-decoration-none p-0 m-0 text-dark" href="">
+                  <div class="col-12 my-1 p-0">
+                    <img class="align-top"
+                      src="https://pocosentreaspas.com/wp-content/uploads/2023/05/the-meg-2-the-trench-1000x600.webp"
+                      alt="" style="width: 300px;margin-right: 15px;">
+                    <div class="col-6 d-inline-block">
+                      <h3>Megatubarão 2: veja o trailer</h3>
+                      <hr>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum blanditiis quis? Repellat,
+                        ipsum.</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </section>
+
+          </div>
+          <div class="col-3 bg-light d-inline-block p-0 shadow" style="margin-left: 50px;">
+            <div class="col-12 bg-danger" style="height: 150px;">
+
+            </div>
+            <div class="col-12 bg-danger mt-1" style="height: 150px;">
+
+            </div>
+            <div class="col-12 bg-danger mt-1" style="height: 150px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12" style="height: 200px;">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

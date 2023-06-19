@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 109, 109), rgb(80, 0, 53));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#part1 {
+    
+    margin: auto;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    width: 550px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.add {
+    color: rgb(145, 145, 145);
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    cursor: pointer;
+}
+
+#form {
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    margin: 15px;
+}
+
+h2 {
+    margin: 30px;
+}
+
+#part2 {
+    position: relative;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.cartao {
+    max-width: 500px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: black;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.418);
+    margin-top: 10px;
+
+}
+
+.txt {
+    text-indent: 15px;
+    margin-right: auto;
+}
+
+.btn {
+    background-color: white;
+    border: 0px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+footer {
+    height: 30px;
+}
